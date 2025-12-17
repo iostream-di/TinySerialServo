@@ -14,7 +14,7 @@ extern "C" {
 
 #pragma config FOSC = INTOSC
 #pragma config WDTE = OFF
-#pragma config PWRTE = OFF
+#pragma config PWRTE = ON
 #pragma config MCLRE = ON
 #pragma config CP = OFF
 #pragma config CPD = OFF
@@ -29,7 +29,7 @@ extern "C" {
 #pragma config BORV = LO
 #pragma config LVP = OFF
     
-#define _XTAL_FREQ 32000000UL
+#define _XTAL_FREQ 32000000
 
 
 #ifdef	__cplusplus

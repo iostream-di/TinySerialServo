@@ -7,11 +7,12 @@ static unsigned char sysled_activeDrive;
 
 static void drive(void){
     if (sysled_isEnabled)
-        SYSLED_PIN = (__bit)sysled_state;
+        pinWrite(PIN_SYSLED, (__bit)sysled_state);
 }
 
 void sysled_init(void){
-    SYSLED_PIN = 0u;
+    pinMode(A0, OUTPUT);
+    pinWrite(PIN_SYSLED, LOW);
     sysled_isEnabled = 1u;
     sysled_activeDrive = 1u;
 }

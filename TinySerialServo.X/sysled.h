@@ -14,10 +14,12 @@ extern "C" {
 
 #include <xc.h>
 
-#ifndef SYSLED_PIN
-#define SYSLED_PIN RA0
-#endif
+#include "pins.h"
     
+
+
+    
+
     extern void sysled_init(void);
     extern void sysled_set_drive(unsigned char mode);
     extern void sysled_enable(void);
