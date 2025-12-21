@@ -107,7 +107,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "4.7k"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -308,7 +308,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1145,7 +1145,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1498,7 +1498,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1uF"
 			(at 0 1.68 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1935,7 +1935,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10uF"
 			(at 0 1.68 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2288,7 +2288,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "4.7uF"
 			(at 0 1.68 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2489,7 +2489,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 0 1.68 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2926,7 +2926,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1.5k"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3127,7 +3127,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "4.7k"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3328,7 +3328,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1uF"
 			(at 0 1.68 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4061,7 +4061,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4262,7 +4262,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 0 1.68 0)
 			(layer "F.Fab")
 			(hide yes)
