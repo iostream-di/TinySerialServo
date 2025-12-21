@@ -43,7 +43,7 @@ void servo_init(void){
 
     // Timer1 setup
     T1CONbits.TMR1CS = 0;     // Clock source = Fosc/4 (datasheet: TMR1CS=00)
-    T1CONbits.T1CKPS = 0b110;  // Prescaler = 1:8 (datasheet: T1CKPS=11)
+    T1CONbits.T1CKPS = 0b11;  // Prescaler = 1:8 (datasheet: T1CKPS=11)
     TMR1H = 0;                // Clear Timer1 high byte
     TMR1L = 0;                // Clear Timer1 low byte
     PIR1bits.TMR1IF = 0;      // Clear interrupt flag (datasheet requirement)
